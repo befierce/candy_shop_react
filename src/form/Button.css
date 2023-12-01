@@ -1,0 +1,18 @@
+
+.button{
+    height: 180px;
+    width: 98%;
+    border-radius: 25px;
+    font-size: 80px;
+    color:rgb(134, 193, 15);
+    font-weight: 900;
+}
+
+.button:hover{
+    background-color: rgb(26, 90, 92);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 5px 20px 60px rgb(142, 205, 16);
+    font-feature-settings: "abvs";
+}
+

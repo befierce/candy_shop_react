@@ -1,0 +1,13 @@
+
+
+
+
+.displaycontainer{
+    width: 700px;
+    height:max-content;
+    border: 1px solid black;
+    margin-right: 150px;
+    margin-top:50px;
+    margin-left: 80px;
+    border-radius: 8px;
+}

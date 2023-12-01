@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  top: 0%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+  width: 100%; /* Change to 100% for full width */
+  box-sizing: border-box; /* Consider box-sizing to account for padding and borders */
+}
+
+/* Media query for adjusting header width at different screen sizes */
+@media (max-width: 768px) {
+  .header {
+      width: 100%; /* Adjust width for smaller screens */
+  }
+}
+
+.header h1 {
+  margin: 0;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+}
+
+.header button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.header button:hover {
+  background-color: #d32f2f;
+}
